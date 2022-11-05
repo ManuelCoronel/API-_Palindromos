@@ -42,9 +42,8 @@ public class UserController {
             UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(authenticationRequest.getUsername(), authenticationRequest.getPassword());
             authenticationManager.authenticate(authentication);
         } catch (BadCredentialsException e) {
-            System.out.println("Fallo");
             throw new Exception("Invalid username or password", e);
-        }   System.out.println("Hola");
+        }
         UserDetails userDetails = myUserDetailService.loadUserByUsername(authenticationRequest.getUsername());
         String token = jwtService.createToken(userDetails);
         return new AuthenticationResponse(token);
