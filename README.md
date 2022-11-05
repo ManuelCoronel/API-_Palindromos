@@ -45,7 +45,7 @@ Login - POST
   
   `http://127.0.0.1:8080/palindrome`
   
-  ### Body
+ ### Body
 `
     {
        "palindrome":"anita lava la tina"
@@ -55,3 +55,6 @@ Login - POST
 `{
 'ava'
 }`
+
+ ### Example
+![image](https://user-images.githubusercontent.com/51394121/200146199-14d568aa-6944-4c69-a3e2-a453c2bed41c.png)
