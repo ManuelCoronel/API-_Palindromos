@@ -16,8 +16,8 @@ La api se puede ejecutar de dos manera, corriendo el dockerfile o el jar
 
 ## Uso de la aplicacion
 
-## Login
-### Endpoint (Method : POST)
+Login - POST
+
   `http://127.0.0.1:8080/login`
   
 ### Body
@@ -39,4 +39,19 @@ La api se puede ejecutar de dos manera, corriendo el dockerfile o el jar
 ![image](https://user-images.githubusercontent.com/51394121/200145046-fbdbf69e-59c2-4ab5-9bcc-290e0cd71e47.png)
 
 
+- Encontrar Palindromo
+  
+  `Authorization : Bearer Token`
+  
+  `http://127.0.0.1:8080/palindrome`
+  
+  ### Body
+`
+    {
+       "palindrome":"anita lava la tina"
+     }`
+### Response
 
+`{
+'ava'
+}`
