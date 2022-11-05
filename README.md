@@ -39,7 +39,7 @@ La api se puede ejecutar de dos manera, corriendo el dockerfile o el jar
 ![image](https://user-images.githubusercontent.com/51394121/200145046-fbdbf69e-59c2-4ab5-9bcc-290e0cd71e47.png)
 
 
-### Encontrar Palindromo - GET
+### Encontrar Palindromo - POST
   
   `Authorization : Bearer Token`
   
