@@ -24,7 +24,7 @@ La api se puede ejecutar de dos manera, corriendo el dockerfile o el jar
 `
  {
   "username":"anyUser",
-  "password":"pass" (fija)
+  "password":"pass"
  } 
  ` 
  ### Response
