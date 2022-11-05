@@ -14,4 +14,20 @@ La api se puede ejecutar de dos manera, corriendo el dockerfile o el jar
 ` docker run -d -p 8080:8080 api `
 
 
+## Uso de la aplicacion
+
+## Login
+### Endpoint (Method : POST)
+  `http://127.0.0.1:8080/login`
+  
+### Body
+`
+ {
+  "username":"anyUser"
+  "password":"pass" (fija)
+ } 
+ ` 
+![image](https://user-images.githubusercontent.com/51394121/200145046-fbdbf69e-59c2-4ab5-9bcc-290e0cd71e47.png)
+
+
 
