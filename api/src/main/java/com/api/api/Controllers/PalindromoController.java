@@ -12,8 +12,8 @@ public class PalindromoController {
     private PalindromoCheckService service;
 
     @PostMapping("/palindrome")
-        public String validatePalindrome (@RequestBody Palindrome palindrome){
-            return service.validatePlaindrome(palindrome.getPalindrome());
+        public Palindrome validatePalindrome (@RequestBody Palindrome palindrome){
+            return new Palindrome(service.validatePlaindrome(palindrome.getPalindrome()));
         }
 }
 
