@@ -53,7 +53,7 @@ La api se puede ejecutar de dos manera, corriendo el dockerfile o el jar
 ### Response
 
 `{
-'ava'
+"palindrome":"ava"
 }`
 
  ### Example
