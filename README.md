@@ -57,4 +57,4 @@ La api se puede ejecutar de dos manera, corriendo el dockerfile o el jar
 }`
 
  ### Example
-![image](https://user-images.githubusercontent.com/51394121/200148232-6bd1bc1d-3d38-450b-8e0a-c4aa34876340.png)
+![image](https://user-images.githubusercontent.com/51394121/200148246-5a4a47e8-8d5e-43ad-8bc2-a7094ecb40e7.png)
